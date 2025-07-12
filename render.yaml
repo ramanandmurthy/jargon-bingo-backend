@@ -2,9 +2,7 @@ services:
   - type: web
     name: jargon-bingo-backend
     env: python
-    buildCommand: ""
-    startCommand: "python app.py"
-    plan: free
+    startCommand: python app.py
     envVars:
       - key: ASSEMBLYAI_API_KEY
         sync: false
